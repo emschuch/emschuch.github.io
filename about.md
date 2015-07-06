@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I come from an art and design background, but I also love numbers. I'm currenty studying data science in NYC in the Metis data science bootcamp.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+I also have a portfolio site at [emilyschuch.com](http://www.emilyschuch.com/)
