@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project 01 - MTA Turnstile Data
+title: MTA Turnstile Data
 ---
 
 Working with data can be messy. Very messy. This week at Metis we worked on a project using MTA turnstile data. The bulk of my time was spent processing, cleaning, and reshaping the data to see what sorts of stories it could tell.
