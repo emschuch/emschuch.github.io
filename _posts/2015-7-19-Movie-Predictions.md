@@ -9,15 +9,15 @@ But first, how to measure quality? The two measures available on IMDB were the M
 
 The other film information I scraped from IMDB included the release date, duration of the film, genres, MPAA rating, production studio, opening weekend box office, US gross box office, the number of IMDB users who rated the film, and the number of users who reviewed the film.
 
-![png](../img/luther_03.png)
+![png](../img/luther_03.png = 500x)
 
 My dataset included over 1000 different film studios. I needed a way to narrow them down to the most important studios so that I wouldn't over-complicate my model. I used the 20 most common studios in the dataset, but also looked at the studios with the highest average quality measures (user score or meta score). When I used studios with at least 10 films in my dataset, those with the highest average quality scores were significant in my model.
 
-![png](../img/luther_04.png)
+![png](../img/luther_04.png = 500x)
 
 IMDB users seem to like nearly everything they rate, with an average user rating around 6.5 and very little variation. The only movie users really didn't like was Kirk Cameron's 'Saving Christmas', which rated 1.6.
 
-![png](../img/luther_05.png)
+![png](../img/luther_05.png = 500x)
 
 Predicting Metacritic scores was another story. My model didn't perform very well, overrating low quality films and underrating high quality films.
 
