@@ -3,9 +3,9 @@ layout: post
 title: Making a Web App for Candidential Tweets
 ---
 
-This week I used some natural language processing techniques and built a web app for exploring the tweets of the U.S. presidential candidates, as I like to call them, candidential tweets.
+This week I used some natural language processing techniques and built a web app for exploring the tweets of the U.S. presidential candidates, or, as I call them, candidential tweets.
 
-There are currently over 700 people who have [officially filed with the FEC](http://www.fec.gov/press/resources/2016presidential_form2dt.shtml) to run for president of the United States. I focused on 22 candidates - 17 Republicans, 4 Democrats, and 1 from the Green Party - and pulled their most recent tweets into Python using the twitter API and the Tweepy Python package. I first looked at some basic statistics; who has the most retweets? Who has the most favorites? 
+There are currently over 700 people who have [officially filed with the FEC](http://www.fec.gov/press/resources/2016presidential_form2dt.shtml) to run for president of the United States. I focused on 22 candidates -- 17 Republicans, 4 Democrats, and 1 from the Green Party -- and pulled their most recent tweets into Python using the twitter API and the Tweepy Python package. I first looked at some basic statistics; who has the most retweets? Who has the most favorites? 
 
 ![png](../img/tweets1a.png)
 
@@ -37,8 +37,8 @@ With the modality function, I gave each tweet a certainty score and, again, foun
 
 ![png](../img/tweets3.png)
 
-Finally, I packaged all of this into a script and created a simple web application using [Spyre](https://github.com/adamhajari/spyre). You can see the code for my application [on GitHub](https://github.com/emschuch/metis04_candidential_tweets).
+Finally, I packaged all of this into a script and created a simple web application using [Spyre](https://github.com/adamhajari/spyre). You can see the app in action [on my website](http://www.emilyschuch.com/works/candidential-tweets/) or take a look at the code [on GitHub](https://github.com/emschuch/metis04_candidential_tweets).
 
-While my original analysis was conducted on the 100 most recent tweets, I restricted the number of tweets to 20 for the web app. First, I felt this would give users more up to date information (most candidates seem to tweet 20 times in just a few days, though some don't tweet that often). Second, it protects the web app from go down due to exceding the rate limit of the Twitter API (which occured a few times during testing).
+While my original analysis was conducted on the 100 most recent tweets, I restricted the number of tweets to 20 for the web app. First, I felt this would give users more up to date information (most candidates tweet 20 times in just a few days). Second, it protects the web app from go down due to exceding the rate limit of the Twitter API (which occured a few times during testing).
 
 Personally, I'm quite curious to see how these numbers will change as election season continues.
