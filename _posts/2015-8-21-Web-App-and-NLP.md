@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making a Web App for Candidential Tweets
+title: Making a Web App for NLP on Tweets
 ---
 
 This week I used some natural language processing techniques and built a web app for exploring the tweets of the U.S. presidential candidates, or, as I call them, candidential tweets.
@@ -12,7 +12,11 @@ There are currently over 700 people who have [officially filed with the FEC](htt
 ![png](../img/tweets1b.png)
 
 
-I should mention here that basing predictions of who will get their party nomination on Twitter favorites or retweets is quite dubious. It's one thing to click a 'like' or 'share' button on a social media site, but quite another to actually get your butt down to the polling station on election day. It is also still early in the nomination process, and a lot could change in the next year. What these numbers can show is simply the level of social media engagement each candidate achieves.
+I should mention here that basing predictions of who will get their party nomination on Twitter favorites or retweets is quite dubious. It's one thing to click a 'like' or 'share' button on a social media site, but quite another to actually get your butt down to the polling station on election day. Also, some twitter users may retweet a candidate, not as an endorsement or show of support, but to ridicule them.
+
+![png](../img/tweets4.png)
+
+It's also still early in the nomination process, and a lot could change in the next year. What these numbers can show is simply the level of social media engagement each candidate achieves.
 
 Next I used a Python package for text analysis, [pattern.en](http://www.clips.ua.ac.be/pages/pattern-en). This package contains functions for extracting sentiment and mood from text. From the pattern.en documentation:
 
