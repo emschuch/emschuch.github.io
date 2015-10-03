@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Make a Line Chart that Doesn’t Lie
+title: How to Make an Honest Line Chart
 ---
 
 Rule 1: Include a properly scaled y-axis.
