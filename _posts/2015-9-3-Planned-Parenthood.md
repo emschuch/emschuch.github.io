@@ -15,21 +15,7 @@ AUL defended their chart in a barely readable [blog post](http://www.aul.org/201
 
 Let’s be clear, there is NO mathematical reality in AUL’s chart. The chart is a lie.
 
-I was able to track down the annual reports published by Planned Parenthood for all years from 2006 to 2013 except for 2008. While the annotated numbers AUL uses are true, the two lines are false, they should not cross one another. The number of abortions performed by Planned Parenthood is less than the number of cancer screenings, and has been for the entire time period from 2006 to 2013. In mathematical reality, 327,000 is less than 935,573. 
-
-In case my math skills were really rusty, I could even check that in my computer terminal. On a Mac, you can open a new terminal window and type the following.
-
-```
-python
-
-327000 < 935573
-
-327000 > 935573
-```
-
-The output should look something like this:
-
-![png](../img/terminal.png)
+I was able to track down the annual reports published by Planned Parenthood for all years from 2006 to 2013 except for 2008. While the annotated numbers AUL uses are true, the two lines are false, they should not cross one another. The number of abortions performed by Planned Parenthood is less than the number of cancer screenings, and has been for the entire time period from 2006 to 2013. In mathematical reality, 327,000 is less than 935,573.
 
 Planned Parenthood’s annual reports also contain figures on other services they provide, such as STI / STD screenings & treatment, contraceptive services, and pregnancy & prenatal services. I made a new chart from this data and included all of the different types of services performed by Planned Parenthood.
 
