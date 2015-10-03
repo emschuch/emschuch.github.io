@@ -5,11 +5,11 @@ title: How to Make a Line Chart that Doesn’t Lie
 
 Rule 1: Include a properly scaled y-axis.
 
-This seems like it should be easy, a no-brainer, yet the people at Americans United for Life (AUL) did not follow this simple rule when creating the chart below. This chart was shown briefly during a House government oversight committee on September 29th in which Cecile Richards, president of Planned Parenthood, was questioned by House Republicans.
+This seems like it should be easy, yet the people at Americans United for Life (AUL) did not follow this simple rule when creating the chart below. This chart was shown briefly during a House government oversight committee on September 29th in which Cecile Richards, president of Planned Parenthood, was questioned by House Republicans.
 
 ![jpg](../img/AULchart.jpg)
 
-AUL defended their chart in a barely readable [blog post](http://www.aul.org/2015/09/aul-debunks-abortion-industry-falsehoods-about-a-simple-fact-planned-parenthood-doing-more-abortions-and-fewer-health-screenings/).
+AUL defended their chart in [a barely readable blog post](http://www.aul.org/2015/09/aul-debunks-abortion-industry-falsehoods-about-a-simple-fact-planned-parenthood-doing-more-abortions-and-fewer-health-screenings/).
 
 > “...activist media sites exploded in a furry [sic] of smoke and mirrors, trying to critique the visual rather than discuss the mathematical reality behind it.”
 
@@ -21,13 +21,15 @@ Planned Parenthood’s annual reports also contain figures on other services the
 
 ![png](../img/ppchart1.png)
 
-When these numbers are plotted with an honest-to-goodness common y-scale, the number of abortions appears nearly flat. There is, however, a decline in cancer screenings starting in 2009. At first I wondered if this might be due to the Affordable Care Act. Are people visiting PP less often for this service because more have health insurance and can see their private doctor? But this didn’t make much sense, since the ACA only took effect in 2013. Why did cancer screenings start declining in 2009? 
+When these numbers are plotted with an honest-to-goodness common y-scale, the number of abortions appears nearly flat. There is, however, a decline in cancer screenings starting in 2009. At first I wondered if this might be due to the Affordable Care Act. Are people visiting PP less often for this service because more have health insurance and can see their private doctor? But this didn’t make much sense, since the ACA only took effect in 2013. Why did the number of cancer screenings start declining in 2009? 
 
-I posted a version of this chart on twitter and someone posited [a plausible answer](https://twitter.com/kimu/status/649697099219529728). National guidelines for the frequency of cervical cancer screenings were officially changed in 2012, but [the American College of Obstetricians and Gynecologists started advising a reduction of frequency in  2009](http://well.blogs.nytimes.com/2012/03/14/new-guidelines-advise-less-frequent-pap-smears/?_r=0). Previously, women received a pap smear to screen for cervical cancer once a year, but it is now recommended that pap smears should be performed every three years. In addition, [changes in recommendations](http://www.nytimes.com/2009/11/17/health/17cancer.html) were made in 2009 regarding how early and often women should begin receiving regular mammograms. The recommended age to start breast cancer screenings went from 40 to 50 years of age for healthy women, and should occur less frequently, once every two years rather than every year, according to these guidelines.
+I posted a version of this chart on twitter and someone posited [a plausible answer](https://twitter.com/kimu/status/649697099219529728). National guidelines for the frequency of cervical cancer screenings were officially changed in 2012, but the American College of Obstetricians and Gynecologists [started advising a reduction of frequency in  2009](http://well.blogs.nytimes.com/2012/03/14/new-guidelines-advise-less-frequent-pap-smears/?_r=0). Previously, women received a pap smear to screen for cervical cancer once a year, but it is now recommended that pap smears should be performed every three years. 
+
+In addition, [changes in recommendations](http://www.nytimes.com/2009/11/17/health/17cancer.html) were made in 2009 regarding how early and often women should begin receiving regular mammograms. The recommended age to start breast cancer screenings went from 40 to 50 years of age for healthy women, and should occur less frequently, once every two years rather than every year, according to these guidelines.
 
 It turns out that properly plotting your data is a great way to find out what’s really going on.
 
-It’s also worth mentioning, and possibly worth shouting, that THE VAST MAJORITY OF PLANNED PARENTHOOD SERVICES ARE NOT RELATED TO ABORTION! The most common services provided by Planned Parenthood overall were STI / STD testing & treatment, and contraception services. In 2013, Planned Parenthood provided nearly 4.5 million services related to STI / STD testing & treatment, and over 3.5 million contraception services. Providing people with affordable access to contraception seems like a great way to prevent unwanted pregnancies and possibly prevent someone from seeking an abortion in the first place.
+It’s also worth mentioning that the vast majority of services provided by Planned Parenthood are not related to abortion. The most common services provided by Planned Parenthood during this time period were STI / STD testing & treatment, and contraception services. In 2013, Planned Parenthood provided nearly 4.5 million services related to STI / STD testing & treatment, and over 3.5 million contraception services. Providing people with affordable access to contraception seems like a great way to prevent unwanted pregnancies and possibly prevent someone from seeking an abortion in the first place.
 
 ####Full Disclosure:
 
@@ -36,7 +38,7 @@ The chart shown here is an update from one I [originally posted on twitter](http
 * I deleted the subtitle, “People served from 2006 to 2013”. This chart is not showing number of people, but the number of times a service was provided.
 * I added dots to the data points. I was unable to find the 2008 Planned Parenthood annual report and do not want to imply that 2008 data is included.
 
-It was also suggested that the data should be normalized for population. I did this, finding the number of times a service was performed per 10,000 people in the population, and the chart is nearly identical.
+It was also [suggested on twitter](https://twitter.com/randal_olson/status/649937156513923072) that the data should be normalized for population. I did this, finding the number of times a service was performed per 10,000 people in the population, and the chart is nearly identical.
 
 ![png](../img/ppchart2.png)
 
